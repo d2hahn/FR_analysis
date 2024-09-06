@@ -18,13 +18,13 @@ Code for obtaining magnitude and phase frequency response from measured voltage 
 1. Control Systems Toolbox
 
 ## Order of use of code files
-1. make_python_output_directories.py
-2. make_matlab_output_directories.py
-3. tdms_to_cropped_seperate_csv_prgrm.py
-4. fr_analysis_prgrm.py
-5. fr_uncertainty_analysis.py
-6. bode_plot_prgrm_from_py_w_uncert.m
-7. upper_and_lower_uncert_bound_bode_plot_prgrm.m
-8. uncert_tf_params_and_tau_seq_pert.py
+1. make_python_output_directories.py (Makes directories for output files from .py files in ./code/python/output folder)
+2. make_matlab_output_directories.py (Makes directories for output files from .m files in ./code/matlab/output folder)
+3. tdms_to_cropped_seperate_csv_prgrm.py (select region of data from TDMS files to use in fr_analysis_prgrm.py, loops through all frequencies)
+4. fr_analysis_prgrm.py (perform OLS fitting of pressure waves to general sinewave model, estimates sinewave model parameters and magnitude and phase FR)
+5. fr_uncertainty_analysis.py (perform uncertainty analysis of magnitude and phase FR )
+6. bode_plot_prgrm_from_py_w_uncert.m (Plot Magnitude and Phase FR in bode plot format, also estimate TF based off experimental FR and estimate step response)
+7. upper_and_lower_uncert_bound_bode_plot_prgrm.m (Determine uncertainty bounds of estimated TF parameters)
+8. uncert_tf_params_and_tau_seq_pert.py (Calculate uncertainty of estimated TF parameters and asociated transient response characteristic)
 
 
