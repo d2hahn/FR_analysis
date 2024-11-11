@@ -25,6 +25,6 @@ Code for obtaining magnitude and phase frequency response from measured voltage 
 5. fr_uncertainty_analysis.py (perform uncertainty analysis of magnitude and phase FR )
 6. bode_plot_prgrm_from_py_w_uncert.m (Plot Magnitude and Phase FR in bode plot format, also estimate TF based off experimental FR and estimate step response)
 7. upper_and_lower_uncert_bound_bode_plot_prgrm.m (Determine uncertainty bounds of estimated TF parameters)
-8. uncert_tf_params_and_tau_seq_pert.py (Calculate uncertainty of estimated TF parameters and asociated transient response characteristic)
+8. uncert_tf_params_and_tau_seq_pert.py (Calculate uncertainty of estimated TF parameters and associated transient response characteristic)
 
 
